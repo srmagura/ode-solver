@@ -49,7 +49,6 @@ var minN = 16
 var maxN = 2048
 
 func main() {
-
 	var prevError float64 = 0
 
 	for N := minN; N <= maxN; N *= 2 {
